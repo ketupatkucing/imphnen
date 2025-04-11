@@ -118,10 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialize particle background if you want to add it
   // This is optional and can be added later
   createParticleBackground();
-  createParticleBackground2();
-  createParticleBackground3();
-  createParticleBackground4();
-  createParticleBackground5();
+  // createParticleBackground2();
+  // createParticleBackground3();
+  // createParticleBackground4();
+  // createParticleBackground5();
 });
 
 // Optional: Create a subtle particle background for the hero section
