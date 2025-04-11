@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>IMPHNEN</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="imphnen.jpg" alt="IMPHNEN Logo">
+
+            </div>
+            <div class="nav-items">
+                <p><a href="#features">Features</a></p>
+                <p><a href="#community">Community</a></p>
+                <p><a href="#resources">Resources</a></p>
+                <div class="social-icons">
+                    <button><i class="fab fa-facebook-f"></i></button>
+                    <button><i class="fab fa-instagram"></i></button>
+                    <button><i class="fab fa-discord"></i></button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+
+                    <div class="hero-desc">
+                        <img class="banner" src="banner.webp" alt="Hero Image">
+                        <!-- <h1>IMPHNEN</h1> -->
+                        <!-- <h3>Ingin Menjadi Programmer Handal, Namun Enggan Ngoding</h3> -->
+                        <div class="hero-misc">
+                            <button class="btn primary"><a href="#features">Jelajahi fitur</a></button>
+                            <button class="btn secondary"><a href="#community">Gabung Discord</a></button>
+                        </div>
+                    </div>
+                    <img class="heroimg" src="heroyuuka.webp" alt="">
+                </div>
+
+
+            </div>
+        </section>
+        <section id="features">
+            <div class="feature-left">
+                <img class="nocodeyuka" src="yuuka3.webp" alt="">
+            </div>
+            <div class="feature-right">
+                <div class="features-header">
+                    <div class="feature-head">
+                        <h2>Fitur Unggulan</h2>
+                    </div>
+                    <div class="feature-desc">
+                        <p>IMPHNEN hadir dengan berbagai fitur untuk membantu kamu menjadi programmer handal tanpa harus
+                            pusing dengan coding.</p>
+                    </div>
+                </div>
+                <div class="feature-body">
+                    <div class="card-feature show">
+                        <div class="card-feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-feature-title">
+                            <b>Belajar Tanpa Koding</b>
+                        </div>
+                        <div class="card-feature-content">
+                            <p>Pelajari konsep programming dengan cara yang mudah dipahami tanpa harus menulis kode yang
+                                rumit.</p>
+                        </div>
+
+                    </div>
+                    <div class="card-feature hidden">
+                        <div class="card-feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-feature-title">
+                            <b>Komunitas Supportif</b>
+                        </div>
+                        <div class="card-feature-content">
+                            <p>Bergabunglah dengan komunitas programmer Indonesia yang siap membantu dan berbagi
+                                pengalaman.</p>
+                        </div>
+                    </div>
+                    <div class="card-feature hidden">
+                        <div class="card-feature-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="card-feature-title">
+                            <b>Tutorial Interaktif</b>
+                        </div>
+                        <div class="card-feature-content">
+                            <p>Akses tutorial interaktif yang membuat konsep pemrograman sulit menjadi mudah dipahami.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature-slide-btn">
+                        <button class="btn secondary" onclick="featurePrev()">Prev</button>
+                        <button class="btn secondary" onclick="featureNext()">Next</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="community">
+            <div class="left">
+                <div class="community-header">
+                    <div class="community-head">
+                        <h2>Komunitas Kami</h2>
+                    </div>
+                    <div class="community-desc">
+                        <p>Bergabunglah dengan ribuan programmer Indonesia yang saling membantu dan berbagi pengetahuan.</p>
+                    </div>
+                </div>
+                <div class="community-body">
+                    <div class="card-community show">
+                        <div class="card-community-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="card-community-title">
+                            <b>Facebook Group</b>
+                        </div>
+                        <div class="card-community-content">
+                            <p>Bergabunglah dengan grup Facebook kami untuk tanya jawab, sharing ide, dan artikel menarik.
+                            </p>
+                            <button class="btn secondary"><a href="#">Gabung sekarang</a></button>
+                        </div>
+                    </div>
+                    <div class="card-community hidden">
+                        <div class="card-community-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="card-community-title">
+                            <b>Instagram</b>
+                        </div>
+                        <div class="card-community-content">
+                            <p>Ikuti kami di Instagram untuk tips programming, quotes inspiratif, dan info event terbaru.</p>
+                            <button class="btn secondary"><a href="">Ikuti kami</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="card-community hidden">
+                        <div class="card-community-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="card-community-title">
+                            <b>Discord</b>
+                        </div>
+                        <div class="card-community-content">
+                            <p>Diskusi realtime dengan sesama programmer dan dapatkan bantuan langsung dari para ahli.</p>
+                            <button class="btn secondary"><a href="#">Gabung sekarang</a></button>
+                        </div>
+                    </div>
+                    <div class="community-slide-btn">
+                        <button class="btn secondary" onclick="communityPrev()">Prev</button>
+                        <button class="btn secondary" onclick="communityNext()">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <img class="yuuka2" src="yuuka2.webp" alt="">
+            </div>
+            
+        </section>
+        <section id="resources">
+            <div class="resource-left">
+                <img class="yuuka4" src="yuuka4.webp" alt="">
+            </div>
+            <div class="left">
+                <div class="resources-header">
+                    <div class="resource-head">
+                        <h2>Sumber Belajar</h2>
+                    </div>
+                    <div class="resource-desc">
+                        <p>Akses berbagai materi belajar yang akan membantu kamu menguasai konsep programming dengan cara
+                            yang
+                            menyenangkan.</p>
+                    </div>
+                </div>
+                <div class="resource-body">
+                    <div class="card-resource show">
+                        <div class="card-resource-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="card-resource-title">
+                            <b>Video Tutorial</b>
+                        </div>
+                        <div class="card-resource-content">
+                            <p>Belajar melalui tutorial video langkah demi langkah yang mudah diikuti</p>
+                            <a href="#" class="resource-link">Lihat semua video</a>
+                        </div>
+                    </div>
+    
+                    <div class="card-resource hidden">
+                        <div class="card-resource-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="card-resource-title">
+                            <b>Artikel & Tutorial</b>
+                        </div>
+                        <div class="card-resource-content">
+                            <p>Pelajari konsep programming melalui artikel yang disusun secara terstruktur.</p>
+                            <a href="#" class="resource-link">Baca Artikel</a>
+                        </div>
+                    </div>
+    
+                    <div class="card-resource hidden">
+                        <div class="card-resource-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <div class="card-resource-title">
+                            <b>Tantangan Koding</b>
+                        </div>
+                        <div class="card-resource-content">
+                            <p>Uji kemampuanmu dengan tantangan koding yang menyenangkan dan menantang.</p>
+                            <a href="#" class="resource-link">Mulai Tantangan</a>
+                        </div>
+                    </div>
+                    <div class="resource-slide-btn">
+                        <button class="btn secondary" onclick="resourcePrev()">Prev</button>
+                        <button class="btn secondary" onclick="resourceNext()">Next</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="testimony">
+            <div class="testimony-header">
+                <div class="testimony-head">
+                    <h2>Testimoni Member</h2>
+                </div>
+                <div class="testimony-desc">
+                    <p>Apa kata mereka yang telah bergabung dengan komunitas IMPHNEN?</p>
+                </div>
+            </div>
+            <div class="testimony-body">
+                <div class="card-testimony">
+                    <div class="card-testimony-user-pic">
+                        <img src="/api/placeholder/80/80" alt="User 1">
+                    </div>
+                    <div class="card-testimony-user-testimony">
+                        <p>"IMPHNEN mengubah cara saya belajar programming. Konsepnya jadi jauh lebih mudah dipahami!"
+                        </p>
+                    </div>
+                    <div class="card-testimony-user-bio">
+                        <b>Budi Domino</b>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="card-testimony">
+                    <div class="card-testimony-user-pic">
+                        <img src="/api/placeholder/80/80" alt="User 2">
+                    </div>
+                    <div class="card-testimony-user-testimony">
+                        <p>"Komunitas yang sangat supportif. Selalu ada yang membantu ketika saya stuck dengan masalah
+                            coding."</p>
+                    </div>
+                    <div class="card-testimony-user-bio">
+                        <b>Fufufafa</b>
+                        <p>P-Makar</p>
+                    </div>
+                </div>
+                <div class="card-testimony">
+                    <div class="card-testimony-user-pic">
+                        <img src="/api/placeholder/80/80" alt="User 3">
+                    </div>
+                    <div class="card-testimony-user-testimony">
+                        <p>"Komunitasnya bikin kualitas bedrest meningkat maksimal"
+                        </p>
+                    </div>
+                    <div class="card-testimony-user-bio">
+                        <b>ObetFullstack</b>
+                        <p>Fullstack Bedrest</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="top-footer">
+            <div class="item-1">
+                <div class="item-1-head">
+                    <b>IMPHNEN</b>
+                </div>
+                <div class="item-1-body">
+                    <p>Komunitas programmer Indonesia yang bertujuan membantu semua orang belajar programming dengan
+                        cara yang menyenangkan.</p>
+                </div>
+            </div>
+            <div class="item-2">
+                <div class="item-2-head">
+                    <b>Tautan Cepat</b>
+                </div>
+                <div class="item-2-body">
+                    <a href="#features">Fitur</a>
+                    <a href="#community">Komunitas</a>
+                    <a href="#resources">Sumber Belajar</a>
+                </div>
+            </div>
+            <div class="item-3">
+                <div class="item-3-head">
+                    <b>Sumber Belajar</b>
+                </div>
+                <div class="item-3-body">
+                    <a href="#">Video Tutorial</a>
+                    <a href="#">Artikel</a>
+                    <a href="#">Tantangan Koding</a>
+                    <a href="#">Sharing Session</a>
+                </div>
+            </div>
+            <div class="item-4">
+                <div class="item-4-head">
+                    <b>Bahasa Pemrograman</b>
+                </div>
+                <div class="item-4-body">
+                    <a href="#">PHP</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">Python</a>
+                    <a href="#">Rust</a>
+                    <a href="#">Java</a>
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <small>© 2025 IMPHNEN - Ingin Menjadi Programmer Handal, Namun Enggan Ngoding. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
