@@ -76,11 +76,12 @@ header {
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(11, 132, 245, 0.1);
   transition: var(--transition);
+  box-shadow: 0 0 30px var(--secondary-color);
 }
 
 header.scrolled {
   padding: 5px 0;
-  box-shadow: 0 2px 10px rgba(11, 132, 245, 0.1);
+  box-shadow: 0 0 30px var(--secondary-color);
 }
 
 nav {
